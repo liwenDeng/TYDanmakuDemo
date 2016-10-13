@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4D89001DAE1ED300154EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D88FF1DAE1ED300154EB3 /* main.m */; };
+		BC4D89031DAE1ED300154EB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89021DAE1ED300154EB3 /* AppDelegate.m */; };
+		BC4D89061DAE1ED300154EB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89051DAE1ED300154EB3 /* ViewController.m */; };
+		BC4D89091DAE1ED300154EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4D89071DAE1ED300154EB3 /* Main.storyboard */; };
+		BC4D890B1DAE1ED300154EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4D890A1DAE1ED300154EB3 /* Assets.xcassets */; };
+		BC4D890E1DAE1ED300154EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4D890C1DAE1ED300154EB3 /* LaunchScreen.storyboard */; };
+		BC4D89191DAE1ED300154EB3 /* TYDanmakuMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89181DAE1ED300154EB3 /* TYDanmakuMasterTests.m */; };
+		BC4D89241DAE1ED300154EB3 /* TYDanmakuMasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89231DAE1ED300154EB3 /* TYDanmakuMasterUITests.m */; };
+		BC4D89381DAE1F2A00154EB3 /* TYDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89371DAE1F2A00154EB3 /* TYDanmakuView.m */; };
+		BC4D893B1DAE212C00154EB3 /* TYDanmakuBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D893A1DAE212C00154EB3 /* TYDanmakuBaseModel.m */; };
+		BC4D893E1DAE214600154EB3 /* TYDanmakuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D893D1DAE214600154EB3 /* TYDanmakuConfig.m */; };
+		BC4D89411DAE22B100154EB3 /* TYDanmakuFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89401DAE22B100154EB3 /* TYDanmakuFilter.m */; };
+		BC4D89441DAE238A00154EB3 /* TYBaseDanmakuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89431DAE238A00154EB3 /* TYBaseDanmakuLabel.m */; };
+		BC4D89471DAE241400154EB3 /* TYDanmakuRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89461DAE241400154EB3 /* TYDanmakuRenderer.m */; };
+		BC4D894A1DAE246B00154EB3 /* TYDanmakuTrajectory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D89491DAE246B00154EB3 /* TYDanmakuTrajectory.m */; };
+		BC4D894D1DAE26D000154EB3 /* TYDanmakuTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D894C1DAE26D000154EB3 /* TYDanmakuTime.m */; };
+		BC4D894F1DAE3B6600154EB3 /* danmakufile in Resources */ = {isa = PBXBuildFile; fileRef = BC4D894E1DAE3B6600154EB3 /* danmakufile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC4D89151DAE1ED300154EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4D88F31DAE1ED200154EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4D88FA1DAE1ED200154EB3;
+			remoteInfo = TYDanmakuMaster;
+		};
+		BC4D89201DAE1ED300154EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4D88F31DAE1ED200154EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4D88FA1DAE1ED200154EB3;
+			remoteInfo = TYDanmakuMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4D88FB1DAE1ED200154EB3 /* TYDanmakuMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYDanmakuMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4D88FF1DAE1ED300154EB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC4D89011DAE1ED300154EB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC4D89021DAE1ED300154EB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC4D89041DAE1ED300154EB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC4D89051DAE1ED300154EB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC4D89081DAE1ED300154EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC4D890A1DAE1ED300154EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC4D890D1DAE1ED300154EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC4D890F1DAE1ED300154EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4D89141DAE1ED300154EB3 /* TYDanmakuMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYDanmakuMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4D89181DAE1ED300154EB3 /* TYDanmakuMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuMasterTests.m; sourceTree = "<group>"; };
+		BC4D891A1DAE1ED300154EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4D891F1DAE1ED300154EB3 /* TYDanmakuMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYDanmakuMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4D89231DAE1ED300154EB3 /* TYDanmakuMasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuMasterUITests.m; sourceTree = "<group>"; };
+		BC4D89251DAE1ED300154EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4D89361DAE1F2A00154EB3 /* TYDanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuView.h; sourceTree = "<group>"; };
+		BC4D89371DAE1F2A00154EB3 /* TYDanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuView.m; sourceTree = "<group>"; };
+		BC4D89391DAE212C00154EB3 /* TYDanmakuBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuBaseModel.h; sourceTree = "<group>"; };
+		BC4D893A1DAE212C00154EB3 /* TYDanmakuBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuBaseModel.m; sourceTree = "<group>"; };
+		BC4D893C1DAE214600154EB3 /* TYDanmakuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuConfig.h; sourceTree = "<group>"; };
+		BC4D893D1DAE214600154EB3 /* TYDanmakuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuConfig.m; sourceTree = "<group>"; };
+		BC4D893F1DAE22B100154EB3 /* TYDanmakuFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuFilter.h; sourceTree = "<group>"; };
+		BC4D89401DAE22B100154EB3 /* TYDanmakuFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuFilter.m; sourceTree = "<group>"; };
+		BC4D89421DAE238A00154EB3 /* TYBaseDanmakuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseDanmakuLabel.h; sourceTree = "<group>"; };
+		BC4D89431DAE238A00154EB3 /* TYBaseDanmakuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseDanmakuLabel.m; sourceTree = "<group>"; };
+		BC4D89451DAE241400154EB3 /* TYDanmakuRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuRenderer.h; sourceTree = "<group>"; };
+		BC4D89461DAE241400154EB3 /* TYDanmakuRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuRenderer.m; sourceTree = "<group>"; };
+		BC4D89481DAE246B00154EB3 /* TYDanmakuTrajectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuTrajectory.h; sourceTree = "<group>"; };
+		BC4D89491DAE246B00154EB3 /* TYDanmakuTrajectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuTrajectory.m; sourceTree = "<group>"; };
+		BC4D894B1DAE26D000154EB3 /* TYDanmakuTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDanmakuTime.h; sourceTree = "<group>"; };
+		BC4D894C1DAE26D000154EB3 /* TYDanmakuTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDanmakuTime.m; sourceTree = "<group>"; };
+		BC4D894E1DAE3B6600154EB3 /* danmakufile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = danmakufile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4D88F81DAE1ED200154EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D89111DAE1ED300154EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D891C1DAE1ED300154EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4D88F21DAE1ED200154EB3 = {
+			isa = PBXGroup;
+			children = (
+				BC4D88FD1DAE1ED200154EB3 /* TYDanmakuMaster */,
+				BC4D89171DAE1ED300154EB3 /* TYDanmakuMasterTests */,
+				BC4D89221DAE1ED300154EB3 /* TYDanmakuMasterUITests */,
+				BC4D88FC1DAE1ED200154EB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4D88FC1DAE1ED200154EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D88FB1DAE1ED200154EB3 /* TYDanmakuMaster.app */,
+				BC4D89141DAE1ED300154EB3 /* TYDanmakuMasterTests.xctest */,
+				BC4D891F1DAE1ED300154EB3 /* TYDanmakuMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4D88FD1DAE1ED200154EB3 /* TYDanmakuMaster */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89311DAE1F1E00154EB3 /* TYDanmaku */,
+				BC4D89011DAE1ED300154EB3 /* AppDelegate.h */,
+				BC4D89021DAE1ED300154EB3 /* AppDelegate.m */,
+				BC4D89041DAE1ED300154EB3 /* ViewController.h */,
+				BC4D89051DAE1ED300154EB3 /* ViewController.m */,
+				BC4D894E1DAE3B6600154EB3 /* danmakufile */,
+				BC4D89071DAE1ED300154EB3 /* Main.storyboard */,
+				BC4D890A1DAE1ED300154EB3 /* Assets.xcassets */,
+				BC4D890C1DAE1ED300154EB3 /* LaunchScreen.storyboard */,
+				BC4D890F1DAE1ED300154EB3 /* Info.plist */,
+				BC4D88FE1DAE1ED300154EB3 /* Supporting Files */,
+			);
+			path = TYDanmakuMaster;
+			sourceTree = "<group>";
+		};
+		BC4D88FE1DAE1ED300154EB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D88FF1DAE1ED300154EB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC4D89171DAE1ED300154EB3 /* TYDanmakuMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89181DAE1ED300154EB3 /* TYDanmakuMasterTests.m */,
+				BC4D891A1DAE1ED300154EB3 /* Info.plist */,
+			);
+			path = TYDanmakuMasterTests;
+			sourceTree = "<group>";
+		};
+		BC4D89221DAE1ED300154EB3 /* TYDanmakuMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89231DAE1ED300154EB3 /* TYDanmakuMasterUITests.m */,
+				BC4D89251DAE1ED300154EB3 /* Info.plist */,
+			);
+			path = TYDanmakuMasterUITests;
+			sourceTree = "<group>";
+		};
+		BC4D89311DAE1F1E00154EB3 /* TYDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89321DAE1F1E00154EB3 /* Model */,
+				BC4D89331DAE1F1E00154EB3 /* Renderer */,
+				BC4D89341DAE1F1E00154EB3 /* Util */,
+				BC4D89351DAE1F1E00154EB3 /* View */,
+				BC4D89361DAE1F2A00154EB3 /* TYDanmakuView.h */,
+				BC4D89371DAE1F2A00154EB3 /* TYDanmakuView.m */,
+				BC4D893C1DAE214600154EB3 /* TYDanmakuConfig.h */,
+				BC4D893D1DAE214600154EB3 /* TYDanmakuConfig.m */,
+			);
+			path = TYDanmaku;
+			sourceTree = "<group>";
+		};
+		BC4D89321DAE1F1E00154EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89391DAE212C00154EB3 /* TYDanmakuBaseModel.h */,
+				BC4D893A1DAE212C00154EB3 /* TYDanmakuBaseModel.m */,
+				BC4D894B1DAE26D000154EB3 /* TYDanmakuTime.h */,
+				BC4D894C1DAE26D000154EB3 /* TYDanmakuTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC4D89331DAE1F1E00154EB3 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89451DAE241400154EB3 /* TYDanmakuRenderer.h */,
+				BC4D89461DAE241400154EB3 /* TYDanmakuRenderer.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		BC4D89341DAE1F1E00154EB3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D893F1DAE22B100154EB3 /* TYDanmakuFilter.h */,
+				BC4D89401DAE22B100154EB3 /* TYDanmakuFilter.m */,
+				BC4D89481DAE246B00154EB3 /* TYDanmakuTrajectory.h */,
+				BC4D89491DAE246B00154EB3 /* TYDanmakuTrajectory.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BC4D89351DAE1F1E00154EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D89421DAE238A00154EB3 /* TYBaseDanmakuLabel.h */,
+				BC4D89431DAE238A00154EB3 /* TYBaseDanmakuLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4D88FA1DAE1ED200154EB3 /* TYDanmakuMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4D89281DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMaster" */;
+			buildPhases = (
+				BC4D88F71DAE1ED200154EB3 /* Sources */,
+				BC4D88F81DAE1ED200154EB3 /* Frameworks */,
+				BC4D88F91DAE1ED200154EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYDanmakuMaster;
+			productName = TYDanmakuMaster;
+			productReference = BC4D88FB1DAE1ED200154EB3 /* TYDanmakuMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC4D89131DAE1ED300154EB3 /* TYDanmakuMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4D892B1DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMasterTests" */;
+			buildPhases = (
+				BC4D89101DAE1ED300154EB3 /* Sources */,
+				BC4D89111DAE1ED300154EB3 /* Frameworks */,
+				BC4D89121DAE1ED300154EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4D89161DAE1ED300154EB3 /* PBXTargetDependency */,
+			);
+			name = TYDanmakuMasterTests;
+			productName = TYDanmakuMasterTests;
+			productReference = BC4D89141DAE1ED300154EB3 /* TYDanmakuMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC4D891E1DAE1ED300154EB3 /* TYDanmakuMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4D892E1DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMasterUITests" */;
+			buildPhases = (
+				BC4D891B1DAE1ED300154EB3 /* Sources */,
+				BC4D891C1DAE1ED300154EB3 /* Frameworks */,
+				BC4D891D1DAE1ED300154EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4D89211DAE1ED300154EB3 /* PBXTargetDependency */,
+			);
+			name = TYDanmakuMasterUITests;
+			productName = TYDanmakuMasterUITests;
+			productReference = BC4D891F1DAE1ED300154EB3 /* TYDanmakuMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4D88F31DAE1ED200154EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "邓利文";
+				TargetAttributes = {
+					BC4D88FA1DAE1ED200154EB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BC4D89131DAE1ED300154EB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC4D88FA1DAE1ED200154EB3;
+					};
+					BC4D891E1DAE1ED300154EB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC4D88FA1DAE1ED200154EB3;
+					};
+				};
+			};
+			buildConfigurationList = BC4D88F61DAE1ED200154EB3 /* Build configuration list for PBXProject "TYDanmakuMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC4D88F21DAE1ED200154EB3;
+			productRefGroup = BC4D88FC1DAE1ED200154EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4D88FA1DAE1ED200154EB3 /* TYDanmakuMaster */,
+				BC4D89131DAE1ED300154EB3 /* TYDanmakuMasterTests */,
+				BC4D891E1DAE1ED300154EB3 /* TYDanmakuMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4D88F91DAE1ED200154EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4D894F1DAE3B6600154EB3 /* danmakufile in Resources */,
+				BC4D890E1DAE1ED300154EB3 /* LaunchScreen.storyboard in Resources */,
+				BC4D890B1DAE1ED300154EB3 /* Assets.xcassets in Resources */,
+				BC4D89091DAE1ED300154EB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D89121DAE1ED300154EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D891D1DAE1ED300154EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4D88F71DAE1ED200154EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4D89441DAE238A00154EB3 /* TYBaseDanmakuLabel.m in Sources */,
+				BC4D89411DAE22B100154EB3 /* TYDanmakuFilter.m in Sources */,
+				BC4D89061DAE1ED300154EB3 /* ViewController.m in Sources */,
+				BC4D894A1DAE246B00154EB3 /* TYDanmakuTrajectory.m in Sources */,
+				BC4D89471DAE241400154EB3 /* TYDanmakuRenderer.m in Sources */,
+				BC4D89031DAE1ED300154EB3 /* AppDelegate.m in Sources */,
+				BC4D893E1DAE214600154EB3 /* TYDanmakuConfig.m in Sources */,
+				BC4D893B1DAE212C00154EB3 /* TYDanmakuBaseModel.m in Sources */,
+				BC4D894D1DAE26D000154EB3 /* TYDanmakuTime.m in Sources */,
+				BC4D89001DAE1ED300154EB3 /* main.m in Sources */,
+				BC4D89381DAE1F2A00154EB3 /* TYDanmakuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D89101DAE1ED300154EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4D89191DAE1ED300154EB3 /* TYDanmakuMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D891B1DAE1ED300154EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4D89241DAE1ED300154EB3 /* TYDanmakuMasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC4D89161DAE1ED300154EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4D88FA1DAE1ED200154EB3 /* TYDanmakuMaster */;
+			targetProxy = BC4D89151DAE1ED300154EB3 /* PBXContainerItemProxy */;
+		};
+		BC4D89211DAE1ED300154EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4D88FA1DAE1ED200154EB3 /* TYDanmakuMaster */;
+			targetProxy = BC4D89201DAE1ED300154EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC4D89071DAE1ED300154EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4D89081DAE1ED300154EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC4D890C1DAE1ED300154EB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4D890D1DAE1ED300154EB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC4D89261DAE1ED300154EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC4D89271DAE1ED300154EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4D89291DAE1ED300154EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYDanmakuMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC4D892A1DAE1ED300154EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYDanmakuMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC4D892C1DAE1ED300154EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYDanmakuMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYDanmakuMaster.app/TYDanmakuMaster";
+			};
+			name = Debug;
+		};
+		BC4D892D1DAE1ED300154EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYDanmakuMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYDanmakuMaster.app/TYDanmakuMaster";
+			};
+			name = Release;
+		};
+		BC4D892F1DAE1ED300154EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYDanmakuMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYDanmakuMaster;
+			};
+			name = Debug;
+		};
+		BC4D89301DAE1ED300154EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYDanmakuMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.TYDanmakuMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYDanmakuMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC4D88F61DAE1ED200154EB3 /* Build configuration list for PBXProject "TYDanmakuMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4D89261DAE1ED300154EB3 /* Debug */,
+				BC4D89271DAE1ED300154EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4D89281DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4D89291DAE1ED300154EB3 /* Debug */,
+				BC4D892A1DAE1ED300154EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4D892B1DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4D892C1DAE1ED300154EB3 /* Debug */,
+				BC4D892D1DAE1ED300154EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4D892E1DAE1ED300154EB3 /* Build configuration list for PBXNativeTarget "TYDanmakuMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4D892F1DAE1ED300154EB3 /* Debug */,
+				BC4D89301DAE1ED300154EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC4D88F31DAE1ED200154EB3 /* Project object */;
+}
